@@ -2,7 +2,7 @@ name: Docker btcd
 on: push
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: btcd # ${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository }}
 jobs:
   release-container:
     runs-on: ubuntu-latest
