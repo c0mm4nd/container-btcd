@@ -21,7 +21,7 @@ ARG ARCH=amd64
 # https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md
 # ➜  ~ crane digest golang:1.16-alpine3.12
 # sha256:db2475a1dbb2149508e5db31d7d77a75e6600d54be645f37681f03f2762169ba
-FROM golang AS build-container
+FROM golang:alpine AS build-container
 
 ARG ARCH
 ENV GO111MODULE=on
