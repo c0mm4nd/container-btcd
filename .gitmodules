@@ -1,0 +1,3 @@
+[submodule "btcd"]
+	path = btcd
+	url = https://github.com/btcsuite/btcd
