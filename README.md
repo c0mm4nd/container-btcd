@@ -4,6 +4,8 @@
 
 This repo is just a temporary solution for [btcd issue#1833](https://github.com/btcsuite/btcd/issues/1833)
 
+last manual updated at 2023-08-04
+
 ## Release
 
 Container locates in https://github.com/C0MM4ND/container-btcd/pkgs/container/container-btcd
